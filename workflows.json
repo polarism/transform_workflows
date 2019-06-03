@@ -1,0 +1,983 @@
+{
+    "nodes": [
+        {
+            "id": "post stack data viz",
+            "category": "Seismic"
+        },
+        {
+            "id": "post stack data qc",
+            "category": "Seismic"
+        },
+        {
+            "id": "pre stack data viz",
+            "category": "Seismic"
+        },
+        {
+            "id": "pre stack data qc",
+            "category": "Seismic"
+        },
+        {
+            "id": "qc positioning",
+            "category": "Seismic"
+        },
+        {
+            "id": "derive avo attributes",
+            "category": "Seismic"
+        },
+        {
+            "id": "survey design",
+            "category": "Seismic"
+        },
+        {
+            "id": "denoise",
+            "category": "Seismic"
+        },
+        {
+            "id": "4d inversion",
+            "category": "Seismic"
+        },
+        {
+            "id": "4d interpretation",
+            "category": "Seismic"
+        },
+        {
+            "id": "time-shift analysis",
+            "category": "Seismic"
+        },
+        {
+            "id": "warping/matching",
+            "category": "Seismic"
+        },
+        {
+            "id": "seismic history matching",
+            "category": "Seismic"
+        },
+        {
+            "id": "segy resampling, cut, ...",
+            "category": "Seismic"
+        },
+        {
+            "id": "sps qc",
+            "category": "Seismic"
+        },
+        {
+            "id": "2d segy intersection",
+            "category": "Seismic"
+        },
+        {
+            "id": "offeset class analysis",
+            "category": "Seismic"
+        },
+        {
+            "id": "read seismic",
+            "category": "Seismic"
+        },
+        {
+            "id": "merge raw(.seg2, segD) => segy",
+            "category": "Seismic"
+        },
+        {
+            "id": "navmerge",
+            "category": "Seismic"
+        },
+        {
+            "id": "designature",
+            "category": "Seismic"
+        },
+        {
+            "id": "wavelet processing",
+            "category": "Seismic"
+        },
+        {
+            "id": "interpolation",
+            "category": "Seismic"
+        },
+        {
+            "id": "ls migration",
+            "category": "Seismic"
+        },
+        {
+            "id": "common reflection surface (CRS)",
+            "category": "Seismic"
+        },
+        {
+            "id": "EBCDIC parsing",
+            "category": "Seismic"
+        },
+        {
+            "id": "RP_66 (RODE)",
+            "category": "Seismic"
+        },
+        {
+            "id": "source modelling",
+            "category": "Seismic"
+        },
+        {
+            "id": "survey planning",
+            "category": "Seismic"
+        },
+        {
+            "id": "vintage reprocessing",
+            "category": "Seismic"
+        },
+        {
+            "id": "tomo",
+            "category": "Seismic"
+        },
+        {
+            "id": "demultiple",
+            "category": "Seismic"
+        },
+        {
+            "id": "FWI",
+            "category": "Seismic"
+        },
+        {
+            "id": "migration depth",
+            "category": "Seismic"
+        },
+        {
+            "id": "migration time",
+            "category": "Seismic"
+        },
+        {
+            "id": "interpretation",
+            "category": "Seismic"
+        },
+        {
+            "id": "prospect chancing",
+            "category": "Seismic"
+        },
+        {
+            "id": "play identification",
+            "category": "Seismic"
+        },
+        {
+            "id": "MCIIP calcs",
+            "category": "Seismic"
+        },
+        {
+            "id": "fwd modelling",
+            "category": "Seismic"
+        },
+        {
+            "id": "ray tracing",
+            "category": "Seismic"
+        },
+        {
+            "id": "survey design",
+            "category": "Seismic"
+        },
+        {
+            "id": "depth conversino",
+            "category": "Seismic"
+        },
+        {
+            "id": "header qc",
+            "category": "Seismic"
+        },
+        {
+            "id": "spatial attribute qc (RMS, dom. freq, ...)",
+            "category": "Seismic"
+        },
+        {
+            "id": "FPI/spectral analysis",
+            "category": "Seismic"
+        },
+        {
+            "id": "stochastic modelling (MC)",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "3d griiling and slicing",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "survey pre vs post plot",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "sps asses",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "uav/lidar surface/pts",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "seismic survey planning",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "core description",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "geomechanical modelling",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "tri-ax test",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "geobody interpretation",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "fluvial modelling",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "deviation surveys",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "well log correlation",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "fracture image analysis",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "dfn modelling",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "fault mapping (satellite)",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "geomodel data analysis (eg. bed thickness, curviture, ...)",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "earth volume modelling",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "PDFs for facies definition",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "lithology prediction",
+            "category": "Petro"
+        },
+        {
+            "id": "fluid prediction",
+            "category": "Petro"
+        },
+        {
+            "id": "quicklook/CPI",
+            "category": "Petro"
+        },
+        {
+            "id": "core plug flow",
+            "category": "Petro"
+        },
+        {
+            "id": "imbitition testlog analysis",
+            "category": "Petro"
+        },
+        {
+            "id": "plug analysis",
+            "category": "Petro"
+        },
+        {
+            "id": "thin section analysis",
+            "category": "Petro"
+        },
+        {
+            "id": "BHI processing and interpolation",
+            "category": "Petro"
+        },
+        {
+            "id": "well log digitalization",
+            "category": "Petro"
+        },
+        {
+            "id": "multi-phase fluid flow modelling",
+            "category": "engineering"
+        },
+        {
+            "id": "history matching",
+            "category": "engineering"
+        },
+        {
+            "id": "seismic historing matching",
+            "category": "engineering"
+        },
+        {
+            "id": "risk analysis",
+            "category": "engineering"
+        },
+        {
+            "id": "slugging prediction",
+            "category": "engineering"
+        },
+        {
+            "id": "well planning from .... to completion",
+            "category": "engineering"
+        },
+        {
+            "id": "production tren monitoring",
+            "category": "engineering"
+        },
+        {
+            "id": "permitting",
+            "category": "engineering"
+        },
+        {
+            "id": "production testing and optimization",
+            "category": "engineering"
+        },
+        {
+            "id": "above ground uncertainty",
+            "category": "engineering"
+        },
+        {
+            "id": "Engineering",
+            "category": "Engineering"
+        },
+        {
+            "id": "Seismic",
+            "category": "Seismic"
+        },
+        {
+            "id": "GIS, surface, Geo-modelling",
+            "category": "GIS, surface, Geo-modelling"
+        },
+        {
+            "id": "Petro",
+            "category": "Petro"
+        },
+        {
+            "id": "Fenics",
+            "category": "python package",
+            "type": "maths"
+        },
+        {
+            "id": "Pint",
+            "category": "python package",
+            "type": "units"
+        },
+        {
+            "id": "subsurface",
+            "category": "python package",
+            "type": "transform"
+        },
+        {
+            "id": "gio",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "dlisio",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "seisplot",
+            "category": "python package",
+            "type": "viz"
+        },
+        {
+            "id": "website",
+            "category": "software",
+            "type": "swung"
+        },
+        {
+            "id": "lasio",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "group shotgathers",
+            "category": "swung",
+            "type": "workflow"
+        },
+        {
+            "id": "prestack binning on the fly",
+            "category": "swung",
+            "type": "workflow"
+        },
+        {
+            "id": "segyio",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "heebeegeebee",
+            "category": "software",
+            "type": "automated correlation"
+        },
+        {
+            "id": "Devito",
+            "category": "python package",
+            "type": "computation"
+        },
+        {
+            "id": "wellpathpy",
+            "category": "python package",
+            "type": "deviation automation"
+        },
+        {
+            "id": "welly",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "lasio",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "striplog",
+            "category": "python package",
+            "type": "io"
+        },
+        {
+            "id": "gempy",
+            "category": "python package",
+            "type": "3d simulation"
+        },
+        {
+            "id": "SimPEG",
+            "category": "python package",
+            "type": "3d simulation"
+        },
+        {
+            "id": "vista",
+            "category": "python package",
+            "type": "3d simulation"
+        },
+        {
+            "id": "DFNlib",
+            "category": "python package",
+            "type": "unknown"
+        },
+        {
+            "id": "bruges",
+            "category": "python package",
+            "type": "geophysical equations"
+        },
+        {
+            "id": "post gis",
+            "category": "python package",
+            "type": "geospatial viz"
+        },
+        {
+            "id": "mplsterionet",
+            "category": "python package",
+            "type": "geospatial calculation"
+        },
+        {
+            "id": "huge seismic",
+            "category": "workflow",
+            "type": "io"
+        }
+    ],
+    "links": [
+        {
+            "source": "post stack data viz",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "post stack data qc",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "pre stack data viz",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "pre stack data qc",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "qc positioning",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "derive avo attributes",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "survey design",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "denoise",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "4d inversion",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "4d interpretation",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "time-shift analysis",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "warping/matching",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "seismic history matching",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "segy resampling, cut, ...",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "sps qc",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "2d segy intersection",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "offeset class analysis",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "read seismic",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "merge raw(.seg2, segD) => segy",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "navmerge",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "designature",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "wavelet processing",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "interpolation",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "ls migration",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "common reflection surface (CRS)",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "EBCDIC parsing",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "RP_66 (RODE)",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "source modelling",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "survey planning",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "vintage reprocessing",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "tomo",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "demultiple",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "FWI",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "migration depth",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "migration time",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "interpretation",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "prospect chancing",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "play identification",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "MCIIP calcs",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "fwd modelling",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "ray tracing",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "survey design",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "depth conversino",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "header qc",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "spatial attribute qc (RMS, dom. freq, ...)",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "FPI/spectral analysis",
+            "target": "Seismic",
+            "value": 1
+        },
+        {
+            "source": "stochastic modelling (MC)",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "3d griiling and slicing",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "survey pre vs post plot",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "sps asses",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "uav/lidar surface/pts",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "seismic survey planning",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "core description",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "geomechanical modelling",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "tri-ax test",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "geobody interpretation",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "fluvial modelling",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "deviation surveys",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "well log correlation",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "fracture image analysis",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "dfn modelling",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "fault mapping (satellite)",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "geomodel data analysis (eg. bed thickness, curviture, ...)",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "earth volume modelling",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "PDFs for facies definition",
+            "target": "GIS, surface, Geo-modelling",
+            "value": 1
+        },
+        {
+            "source": "lithology prediction",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "fluid prediction",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "quicklook/CPI",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "core plug flow",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "imbitition testlog analysis",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "plug analysis",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "thin section analysis",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "BHI processing and interpolation",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "well log digitalization",
+            "target": "Petro",
+            "value": 1
+        },
+        {
+            "source": "multi-phase fluid flow modelling",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "history matching",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "seismic historing matching",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "risk analysis",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "slugging prediction",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "well planning from .... to completion",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "production tren monitoring",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "permitting",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "production testing and optimization",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "above ground uncertainty",
+            "target": "engineering",
+            "value": 1
+        },
+        {
+            "source": "Fenics",
+            "target": "Journal",
+            "value": 1
+        },
+        {
+            "source": "Pint",
+            "target": "subsurface",
+            "value": 1
+        },
+        {
+            "source": "gio",
+            "target": "subsurface",
+            "value": 1
+        },
+        {
+            "source": "dlisio",
+            "target": "subsurface",
+            "value": 1
+        },
+        {
+            "source": "segyio",
+            "target": "subsurface",
+            "value": 1
+        },
+        {
+            "source": "welly",
+            "target": "subsurface",
+            "value": 1
+        },
+        {
+            "source": "lasio",
+            "target": "welly",
+            "value": 1
+        },
+        {
+            "source": "striplog",
+            "target": "welly",
+            "value": 1
+        },
+        {
+            "source": "striplog",
+            "target": "gempy",
+            "value": 1
+        },
+        {
+            "source": "segyio",
+            "target": "devito",
+            "value": 1
+        },
+        {
+            "source": "SimPEG",
+            "target": "gempy",
+            "value": 1
+        },
+        {
+            "source": "vista",
+            "target": "simpeg",
+            "value": 1
+        },
+        {
+            "source": "segyio",
+            "target": "Heebeegeebee",
+            "value": 1
+        },
+        {
+            "source": "lasio",
+            "target": "Heebeegeebee",
+            "value": 1
+        },
+        {
+            "source": "wellpathpy",
+            "target": "welly",
+            "value": 1
+        },
+        {
+            "source": "DFNlib",
+            "target": "Journal",
+            "value": 1
+        }
+    ]
+}
